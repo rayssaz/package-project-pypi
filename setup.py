@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="bubble",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Rayssa Pereira",
+    author_email="rayssacristinne23@gmail.com",
+    description="O pacote contém o algoritmo de ordenação Bubble Sort, o qual pode ser aplicado em arrays e listas dinâmicas.. ",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/rayssaz/package-project-pypi"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
